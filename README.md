@@ -64,13 +64,10 @@ leader for your course, students are encouraged to search
 [StackOverflow](https://stackoverflow.com/) for answers to their technical
 questions.
 
-To do well on this assignment, you should also read Section 1.5.2 to learn more
-about iteration constructs. You should further review Sections 4.1 to 4.3,
-focusing on the content that explains the steps of both an analytical and an
-empirical evaluation of an algorithm. Please read all of the content and study
-all of the technical diagrams and source code segments in Section 3.2. Finally,
-please see the course instructor or one of the student technical leaders if you
-have questions about any of these reading assignments.
+Please read all the content and study all the technical diagrams and source code
+segments in Sections 8.1 through 8.3 and 10.1 through 10.2. Finally, please see
+the course instructor or one of the teaching assistants or tutors if you have
+questions about any of these reading assignments.
 
 ## System Commands
 
