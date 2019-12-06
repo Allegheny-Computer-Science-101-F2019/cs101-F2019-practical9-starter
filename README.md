@@ -1,4 +1,4 @@
-# cs101-F2019-practical9-solution
+# cs101-F2019-practical9-starter
 
 ## Table of Contents
 
@@ -19,26 +19,26 @@
 
 ## Introduction
 
-This assignment requires a programmer to understand the methods in a
-`WordCount` program that is inspired by the source code segment in Section
-10.1.2 of the textbook. With that said, the provided source code combines the
-`Tree` and `HashMap` data structures to implement a more comprehensive
-solution. Your job for this assignment is to run the program and study its
-output. Then, you are responsible for adding comments to the source code that
-demonstrate you understand how the `WordCount` program uses both a `Tree` and
-a `HashMap` to produce the expected output. You should also add the correct
-output statements to the program's source code. Students who are interested in
-doing so are encouraged to write extra Java methods that can, for instance,
-print out the word that is most frequently found in the input file.
-Additionally, you are invited to run the `WordCount` program with a different
-input file. Finally, as verified by
-[Checkstyle](https://github.com/checkstyle/checkstyle), the source code for
-all of the Java classes must adhere to all of the requirements in the [Google
-Java Style Guide](https://google.github.io/styleguide/javaguide.html). The
-source code in the submitted Java source code files must also pass additional
-tests set by the [GatorGrader tool](https://github.com/gkapfham/gatorgrader).
-More details about the GatorGrader checks are included later in this document
-and in the assignment sheet.
+This assignment requires a programmer to understand the methods in a `WordCount`
+program that is inspired by the source code segment in Section 10.1.2 of the
+textbook. With that said, the provided source code combines the `Tree` and
+`HashMap` data structures to implement a more comprehensive solution. Your job
+for this assignment is to run the program and study its output. Then, you are
+responsible for adding comments to the source code that demonstrate you
+understand how the `WordCount` program uses both a `Tree` and a `HashMap` to
+produce the expected output. You should also add the correct output statements
+to the program's source code. Students who are interested in doing so are
+encouraged to write extra Java methods that can, for instance, print out the
+word that is most frequently found in the input file. Additionally, you are
+invited to run the `WordCount` program with a different input file. Finally,
+as verified by [Checkstyle](https://github.com/checkstyle/checkstyle), the
+source code for all of the Java classes must adhere to all of the requirements
+in the [Google Java Style
+Guide](https://google.github.io/styleguide/javaguide.html). The source code in
+the submitted Java source code files must also pass additional tests set by
+the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). More details
+about the GatorGrader checks are included later in this document and in the
+assignment sheet.
 
 ## Continuous Learning
 
