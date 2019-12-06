@@ -1,0 +1,33 @@
+---
+name: cs101-F2019-practical9
+break: true
+indent: 4
+---
+
+# Learn more about GatorGrader and its supported checks by visiting this web site:
+# https://github.com/GatorEducator/gatorgrader
+
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
+
+# --> check the source code for various characteristics
+src/main:
+    java:
+        practicalnine/count/WordCount.java:
+            ConfirmFileExists
+            CountSingleLineComments --language Java --count 20
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            MatchFileFragment --fragment "package practicalnine" --count 1 --exact
+            MatchFileFragment --fragment "public static void" --count 1 --exact
+
+# --> check that the number of commits in the Git repository is beyond a baseline
+CountCommits --count 5
+
+# --> check that the program builds correctly
+ExecuteCommand --command "gradle build"
+
+# --> check that the program runs and produces output
+ExecuteCommand --command "gradle -q --console plain run"
